@@ -1,0 +1,109 @@
+body {
+    background: linear-gradient(135deg, #c86baf, #8327c5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    color: #ffffff;
+    margin-bottom: -100px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 100vh;
+}
+
+#target {
+    /* background: linear-gradient(#61447c, #693990); */
+    background-color: #ffffff;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.5);
+    margin-bottom: -50px;
+}
+
+
+
+.container input {
+    border: 1px solid #aaaaaa;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight:bold;
+    width: 80%;
+    color: rgba(142, 87, 176, 0.75);
+    padding: 10px;
+    margin-right: 10px;
+
+}
+
+.container button {
+    /* background: linear-gradient(135deg, #e4e76b, #ffab8a); */
+    background-color: #8327c5;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    width: 15%;
+    color: #ffffff;
+}
+
+.newTarget {
+/*     background: linear-gradient(#dfe922, #f0b521); */
+    background-color: #ffffff;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    width: 100%;
+    height: 30vh;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.5);
+    margin-top: -50px;
+    overflow: auto;
+    
+}
+
+.add:hover {
+    background-color: #a360d3;
+}
+
+.add:active {
+    background-color: #7d06d1;
+}
+
+.task {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 5px 10px;
+    padding-bottom: 5px;
+    color: rgba(102, 68, 133, 0.75);
+    border-bottom: 2px solid #d1d3d4;
+}
+
+.task span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.delete {
+    width:30px;
+    height:30px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
